@@ -1,0 +1,46 @@
+# Trader Behavior vs Market Sentiment — Summary
+
+## Methodology
+Two datasets were analyzed:
+1) Daily Bitcoin Fear/Greed sentiment
+2) 211k+ historical trades from Hyperliquid
+
+Data was cleaned, timestamps were aligned at daily level, and trades were merged with sentiment. Key metrics were engineered including daily PnL, win rate, trade frequency, average trade size (risk proxy), and trader PnL volatility.
+
+Traders were segmented into:
+- Frequent vs Infrequent
+- High-risk vs Low-risk (position size)
+- Consistent vs Volatile (PnL standard deviation)
+
+Performance and behavior were compared across Fear and Greed regimes using tables and visualizations.
+
+---
+
+## Key Insights
+
+1. Sentiment impacts profitability  
+Greed days show higher average PnL and win rates, while Fear days exhibit reduced profitability and fewer trades.
+
+2. Traders take more risk during Greed  
+Average trade size and trade frequency increase during Greed periods, indicating higher risk appetite.
+
+3. Risk exposure increases losses during Fear  
+High-risk and volatile traders experience significantly larger drawdowns during Fear periods.
+
+4. Consistent traders outperform  
+Low-volatility traders maintain stable returns across both sentiment regimes.
+
+---
+
+## Strategy Recommendations
+
+1. Risk Control During Fear  
+Reduce trade size and frequency during Fear periods to protect capital and minimize drawdowns.
+
+2. Momentum Trading During Greed  
+Increase trading activity during Greed sentiment to capitalize on higher win rates and favorable market momentum.
+
+3. Segment-Based Capital Allocation  
+Allocate more capital to consistent traders while limiting exposure to volatile traders, especially during Fear regimes.
+
+These rules can help improve risk-adjusted returns and create a more stable trading strategy.
